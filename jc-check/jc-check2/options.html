@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>Einstellungen für JCPa Check</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      padding: 16px;
+      line-height: 1.5;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+    label {
+      display: block;
+      margin-top: 12px;
+    }
+    input[type="number"], input[type="text"], textarea {
+      width: 100%;
+      padding: 4px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: vertical;
+    }
+    #save {
+      margin-top: 16px;
+      padding: 6px 12px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Einstellungen</h1>
+  <p>Hier können Sie das Verhalten der Erweiterung anpassen. Die Werte werden lokal im Browser gespeichert.</p>
+  <label>
+    Minimales Scan-Intervall (in Sekunden):
+    <input id="intervalMin" type="number" min="10" step="10" />
+  </label>
+  <label>
+    Maximales Scan-Intervall (in Sekunden):
+    <input id="intervalMax" type="number" min="10" step="10" />
+  </label>
+  <label>
+    Erlaubte Typen (durch Komma getrennt):
+    <input id="allowedTypes" type="text" placeholder="Date, Event-Date" />
+  </label>
+  <label>
+    Ban-Liste (ein Name pro Zeile):
+    <textarea id="banlist" rows="8" placeholder="Benutzernamen hier eingeben"></textarea>
+  </label>
+  <label>
+    Gültigkeitsdauer für Benachrichtigungen (in Stunden):
+    <input id="memoryHours" type="number" min="1" step="1" />
+  </label>
+  <button id="save">Speichern</button>
+  <script src="options.js"></script>
+</body>
+</html>

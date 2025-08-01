@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JCPa Check</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      min-width: 280px;
+      margin: 8px;
+    }
+    #stats {
+      font-size: 11px;
+      margin-bottom: 8px;
+    }
+    #search {
+      width: 100%;
+      padding: 4px;
+      margin-bottom: 8px;
+      box-sizing: border-box;
+    }
+    #entries {
+      margin-top: 4px;
+      max-height: 300px;
+      overflow-y: auto;
+      border-top: 1px solid #ccc;
+      padding-top: 4px;
+    }
+    #resetBtn, #clearListBtn {
+      margin-top: 8px;
+      display: block;
+      width: 100%;
+    }
+    .entry {
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .entry-link {
+      color: #0066ff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .entry-link:hover {
+      text-decoration: underline;
+    }
+    .ban-btn {
+      background: #e57373;
+      border: none;
+      color: white;
+      padding: 2px 4px;
+      font-size: 10px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div id="stats"></div>
+  <input id="search" type="text" placeholder="Suchen...">
+  <div id="entries">Lade Einträge...</div>
+  <button id="resetBtn">Speicher zurücksetzen</button>
+  <button id="clearListBtn">Liste leeren</button>
+  <script src="popup.js"></script>
+</body>
+</html>
