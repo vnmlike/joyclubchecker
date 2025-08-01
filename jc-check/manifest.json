@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "JCPa Check",
+  "version": "0.1.0",
+  "description": "Überwacht die JCPa auf neue Einträge.",
+  "permissions": [
+    "notifications",
+    "downloads",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.joyclub.de/dates_partys/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.joyclub.de/dates_partys/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["banlist.txt"],
+      "matches": ["https://www.joyclub.de/*"]
+    }
+  ]
+}
