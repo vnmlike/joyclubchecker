@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>JCPa Check – Chrome-Erweiterung</title>
+</head>
+<body style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5;">
+
 <h1>JCPa Check – Chrome-Erweiterung</h1>
 
 <!-- 🇩🇪 Deutsch -->
@@ -48,6 +56,21 @@ Wer Ideen oder Vorschläge hat, kann sie gerne mitteilen oder direkt als Update 
   <li>Chrome Manifest V3 erlaubt keine dauerhaften Hintergrundprozesse.</li>
   <li>Schließt man alle Browserfenster, werden keine weiteren Scans ausgeführt.</li>
 </ul>
+
+<h3>Installation</h3>
+<ol>
+  <li>Laden Sie die Datei <strong>jc-check2.zip</strong> aus dem <strong>Release-Bereich</strong> herunter.</li>
+  <li>Entpacken Sie die ZIP-Datei an einen beliebigen Ort auf Ihrem Rechner.</li>
+  <li>Öffnen Sie Chrome und gehen Sie auf <strong>chrome://extensions</strong>.</li>
+  <li>Aktivieren Sie oben rechts den Schalter <strong>Entwicklermodus</strong>.</li>
+  <li>Klicken Sie auf <strong>Entpackte Erweiterung laden</strong>.</li>
+  <li>Wählen Sie den entpackten Ordner von <strong>jc-check2</strong> aus.</li>
+  <li>Die Erweiterung erscheint nun in Ihrer Liste der installierten Erweiterungen.</li>
+</ol>
+<p>
+  Nach der Installation erscheint das Symbol von <strong>JCPa Check</strong> rechts neben der Adressleiste.  
+  Sie können das Popup dort jederzeit öffnen und die Überwachung starten.
+</p>
 
 <h3>Disclaimer</h3>
 <p>
@@ -110,6 +133,21 @@ If you have ideas or improvements, feel free to share or upload updates directly
   <li>If all browser windows are closed, no further scans are executed.</li>
 </ul>
 
+<h3>Installation</h3>
+<ol>
+  <li>Download the file <strong>jc-check2.zip</strong> from the <strong>Release section</strong>.</li>
+  <li>Extract the ZIP file to any folder on your computer.</li>
+  <li>Open Chrome and navigate to <strong>chrome://extensions</strong>.</li>
+  <li>Enable the <strong>Developer mode</strong> switch in the top right corner.</li>
+  <li>Click <strong>Load unpacked</strong>.</li>
+  <li>Select the extracted folder of <strong>jc-check2</strong>.</li>
+  <li>The extension will now appear in your list of installed extensions.</li>
+</ol>
+<p>
+  After installation, the <strong>JCPa Check</strong> icon will appear next to the address bar.  
+  You can open the popup there at any time and start monitoring.
+</p>
+
 <h3>Disclaimer</h3>
 <p>
   This extension is a <strong>private, personal tool</strong> and is <strong>not affiliated with Joyclub</strong>.  
@@ -120,5 +158,5 @@ If you have ideas or improvements, feel free to share or upload updates directly
   No liability is assumed for account suspensions, restrictions, or any other consequences.
 </p>
 
-<hr>
-<p style="margin-top: 20px;"><strong>License:</strong> MIT | <strong>Created by:</strong> vnmlike</p>
+</body>
+</html>
