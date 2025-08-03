@@ -150,5 +150,150 @@ If you have ideas or improvements, feel free to share or upload updates directly
   No liability is assumed for account suspensions, restrictions, or any other consequences.
 </p>
 
-</body>
-</html>
+<hr>
+
+<!-- 🇫🇷 Français -->
+<h2>🇫🇷 Français</h2>
+
+<p><strong>JCPa Check</strong> est une extension Chrome développée par <strong>vnmlike</strong>  
+qui surveille automatiquement la section « Dates &amp; Partys » de  
+<a href="https://www.joyclub.de/dates_partys/" target="_blank">Joyclub.de</a> et détecte les nouvelles entrées.  
+Elle notifie l’utilisateur en temps réel des nouveaux événements ou rencontres, filtre les utilisateurs indésirables  
+et peut stocker les résultats localement.</p>
+
+<h3>Version</h3>
+<p>Il s’agit de la <strong>première version</strong> de l’extension.  
+Si vous avez des idées ou des suggestions, n’hésitez pas à les partager ou à proposer une mise à jour.</p>
+
+<h3>Prérequis & Fonctionnement</h3>
+<ul>
+  <li>Vous devez être <strong>connecté</strong> à Joyclub.de.</li>
+  <li>L’extension utilise automatiquement vos filtres de recherche actifs :
+      <ul>
+        <li>ex. 100 km / 150 km de rayon</li>
+        <li>À l’échelle de l’Allemagne, si configuré</li>
+        <li>À l’échelle mondiale, si activé</li>
+      </ul>
+  </li>
+  <li>Elle vérifie et signale uniquement les entrées que vous pourriez voir manuellement.</li>
+</ul>
+
+<h3>Fonctionnalités</h3>
+<ul>
+  <li>Surveillance automatique des nouvelles Dates &amp; Partys</li>
+  <li>Notifications en temps réel via Chrome</li>
+  <li>Noms d’utilisateurs cliquables dans la popup menant directement au profil</li>
+  <li>Liste noire pour ignorer automatiquement certains utilisateurs</li>
+  <li>Stockage et exportation des nouvelles entrées en fichiers texte</li>
+  <li>Popup avec aperçu et options de réinitialisation ou de nettoyage</li>
+</ul>
+
+<h3>Types de dates détectés</h3>
+<ul>
+  <li><strong>Date</strong> – Rencontres privées</li>
+  <li><strong>Event-Date</strong> – Soirées ou événements listés comme date</li>
+</ul>
+
+<h3>Problèmes connus</h3>
+<ul>
+  <li><strong>L’onglet <a href="https://www.joyclub.de/dates_partys/" target="_blank">https://www.joyclub.de/dates_partys/</a> doit rester ouvert</strong>, sinon la surveillance s’arrête.</li>
+  <li>Chrome Manifest V3 n’autorise pas les processus en arrière-plan persistants.</li>
+  <li>Si toutes les fenêtres du navigateur sont fermées, aucune analyse ne sera effectuée.</li>
+</ul>
+
+<h3>Installation</h3>
+<ol>
+  <li>Téléchargez le fichier <strong>jc-check2.zip</strong> depuis la section <strong>Release</strong>.</li>
+  <li>Décompressez le fichier ZIP dans un dossier de votre ordinateur.</li>
+  <li>Ouvrez Chrome et accédez à <strong>chrome://extensions</strong>.</li>
+  <li>Activez le <strong>Mode développeur</strong> en haut à droite.</li>
+  <li>Cliquez sur <strong>Charger l’extension non empaquetée</strong>.</li>
+  <li>Sélectionnez le dossier extrait de <strong>jc-check2</strong>.</li>
+  <li>L’extension apparaîtra maintenant dans la liste de vos extensions installées.</li>
+</ol>
+<p>
+  Après l’installation, l’icône de <strong>JCPa Check</strong> apparaîtra à droite de la barre d’adresse.  
+  Vous pouvez ouvrir la popup à tout moment et démarrer la surveillance.
+</p>
+
+<h3>Avertissement</h3>
+<p>
+  Cette extension est un <strong>outil privé et personnel</strong> et n’est <strong>pas affiliée à Joyclub</strong>.  
+  Tous les noms, logos et marques mentionnés appartiennent à leurs propriétaires respectifs.
+</p>
+<p>
+  Utilisation à <strong>vos risques et périls</strong>.  
+  Aucune responsabilité n’est assumée pour les suspensions, restrictions ou autres conséquences.
+</p>
+<h2>🇪🇸 Español</h2>
+
+<p><strong>JCPa Check</strong> es una extensión de Chrome creada por <strong>vnmlike</strong>  
+que supervisa automáticamente la sección “Citas &amp; Fiestas” de  
+<a href="https://www.joyclub.de/dates_partys/" target="_blank">Joyclub.de</a> y detecta nuevas publicaciones.  
+Notifica al usuario en tiempo real sobre nuevos eventos o citas, filtra usuarios no deseados  
+y puede almacenar los resultados localmente.</p>
+
+<h3>Versión</h3>
+<p>Esta es la <strong>primera versión</strong> de la extensión.  
+Si tienes ideas o sugerencias de mejora, puedes compartirlas o subir actualizaciones directamente.</p>
+
+<h3>Requisitos y Funcionamiento</h3>
+<ul>
+  <li>Debes estar <strong>conectado</strong> en Joyclub.de.</li>
+  <li>La extensión utiliza automáticamente tus filtros de búsqueda activos en Joyclub:
+      <ul>
+        <li>Por ejemplo, 100 km / 150 km de radio</li>
+        <li>A nivel nacional, si así está configurado</li>
+        <li>A nivel mundial, si está activado</li>
+      </ul>
+  </li>
+  <li>Solo verifica y notifica publicaciones que tú mismo podrías ver manualmente.</li>
+</ul>
+
+<h3>Funciones</h3>
+<ul>
+  <li>Supervisión automática de nuevas Citas &amp; Fiestas</li>
+  <li>Notificaciones en tiempo real a través de Chrome</li>
+  <li>Los nombres de usuario en el popup son clicables y llevan directamente al perfil</li>
+  <li>Lista de bloqueo para ignorar usuarios seleccionados automáticamente</li>
+  <li>Almacenamiento y exportación de nuevas entradas en archivos de texto</li>
+  <li>Popup con vista general y opción de limpiar o restablecer</li>
+</ul>
+
+<h3>Tipos de Citas Detectadas</h3>
+<ul>
+  <li><strong>Cita</strong> – Encuentros privados</li>
+  <li><strong>Cita-Evento</strong> – Fiestas o eventos publicados como cita</li>
+</ul>
+
+<h3>Problemas Conocidos</h3>
+<ul>
+  <li><strong>La pestaña <a href="https://www.joyclub.de/dates_partys/" target="_blank">https://www.joyclub.de/dates_partys/</a> debe permanecer abierta</strong>, de lo contrario, la supervisión automática se detiene.</li>
+  <li>Chrome Manifest V3 no permite procesos en segundo plano persistentes.</li>
+  <li>Si cierras todas las ventanas del navegador, no se realizan más escaneos.</li>
+</ul>
+
+<h3>Instalación</h3>
+<ol>
+  <li>Descarga el archivo <strong>jc-check2.zip</strong> desde la sección <strong>Release</strong>.</li>
+  <li>Extrae el archivo ZIP en cualquier carpeta de tu ordenador.</li>
+  <li>Abre Chrome y navega a <strong>chrome://extensions</strong>.</li>
+  <li>Activa el interruptor de <strong>Modo desarrollador</strong> en la esquina superior derecha.</li>
+  <li>Haz clic en <strong>Cargar descomprimida</strong>.</li>
+  <li>Selecciona la carpeta descomprimida de <strong>jc-check2</strong>.</li>
+  <li>La extensión aparecerá ahora en tu lista de extensiones instaladas.</li>
+</ol>
+<p>
+  Después de la instalación, el icono de <strong>JCPa Check</strong> aparecerá junto a la barra de direcciones.  
+  Puedes abrir el popup en cualquier momento y comenzar la supervisión.
+</p>
+
+<h3>Descargo de Responsabilidad</h3>
+<p>
+  Esta extensión es una <strong>herramienta privada y personal</strong> y <strong>no está afiliada con Joyclub</strong>.  
+  Todos los nombres, logotipos y marcas mencionados pertenecen a sus respectivos propietarios.
+</p>
+<p>
+  Úsala <strong>bajo tu propio riesgo</strong>.  
+  No se asume ninguna responsabilidad por suspensiones de cuentas, restricciones u otras consecuencias.
+</p>
