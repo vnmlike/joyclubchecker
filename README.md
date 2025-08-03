@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>JCPa Check – Chrome-Erweiterung</title>
-</head>
-<body style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5;">
-
 <h1>JCPa Check – Chrome-Erweiterung</h1>
 
 <!-- 🇩🇪 Deutsch -->
